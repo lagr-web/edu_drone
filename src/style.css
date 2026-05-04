@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+body {
+  background-color: #F2E530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#headline{
+position: absolute;
+  width: 100%; 
+  top:2%;      
+  z-index: 100;
+  font-family:"Orbitron";
+  color: hsl(50, 96%, 51%);
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1;
+  text-align: center; /* centrerer teksten horisontalt inden i div */
+ } 
+
+ #loader-container{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+    font-family: "Orbitron";
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 1vw;
+ }
+
+ #ninja {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
