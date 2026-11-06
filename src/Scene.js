@@ -9,6 +9,8 @@ import Light from "./objects/Light";
 
 class Scene {
   constructor() {
+
+    
   
     this.ninja = document.createElement("div");
     this.ninja.id = "ninja";
